@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sc"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp"
+    style="@style/m">
+    <!--android:background="@drawable/webbg"-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/fab"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom|end"-->
+    <!--android:layout_margin="@dimen/fab_margin"-->
+    <!--app:backgroundTint="@color/colorAccent"-->
+    <!--android:src="@android:drawable/btn_plus"-->
+    <!--/>-->
+
+    <FrameLayout
+        android:layout_width="502dp"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="top|start"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:id="@+id/sib"
+            >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/c"
+                android:onClick="Dismiss" />
+
+            <TextView
+                android:id="@+id/pop_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:textColor="#FFFFFF"
+                android:layout_toEndOf="@+id/button2"
+                android:layout_toRightOf="@+id/button2"
+                android:text="Order this menu"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:text="Name of the Meal"
+                android:textColor="@color/white"
+                android:layout_below="@id/pop_title"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:text="Price"
+                android:id="@+id/price"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/price"
+                android:text="description"
+                android:id="@+id/descr"
+                android:textColor="@color/white"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/descr"
+                android:text="description"
+                android:visibility="invisible"
+                android:id="@+id/en"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:id="@+id/add"
+                android:text="buy"
+                android:layout_below="@id/en"
+
+
+                />
+        </RelativeLayout>
+
+
+
+    </FrameLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

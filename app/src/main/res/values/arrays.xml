@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+
+<string-array name="restau">
+    <item>Brew’d Awakening Coffeehaus</item>
+    <item>Party Fowl</item>
+    <item>Life of Pie</item>
+    <item>Tequila Mockingbird</item>
+    <item>The Glass Onion</item>
+    <item>Planet of the Crepes</item>
+</string-array>
+
+
+
+
+
+<string-array name="place_desc">
+<item>Lowell, MA. Not only is this a pun, but it is also a double-entre. Wins all around.
+        </item>
+<item>Nashville, TN. This Nashville fried chicken joint “includes a number of hot chicken dishes with heat levels ranging from mild to “Poultrygeist,” as well as creative spins on the classics.”</item>
+<item> Ontario, Canda. With a rotating menu depending on the day of the week, this Canada-based bakery &amp; cafe certainly knows a thing or two about pie. </item>
+<item>New Canaan, CT</item>
+<item>Falmouth, MA. When their 2-year old son suggested that the restaurant be named after one of his favorite Beatles’ songs, The Glass Onion, Josh and Tally Christian couldn’t really deny him.</item>
+<item>Tucson, AZ. They stand as Tucson’s online mobile creperie and was voted as the Best Food Truck in 2014.</item>
+</string-array>
+
+<!--<array name="place_avator">-->
+<!--<item>@drawable/a</item>-->
+<!--<item>@drawable/b</item>-->
+<!--<item>@drawable/c</item>-->
+<!--<item>@drawable/d</item>-->
+<!--<item>@drawable/e</item>-->
+<!--<item>@drawable/f</item>-->
+<!--</array>-->
+
+    <string-array name="food_description">
+        <item>2 burgers ,R30</item>
+        <item>Breakfast and tea R17</item>
+        <item>Big Burger King ,R25</item>
+        <item>Burger ,Chips and slalad ,R52</item>
+        <item>Fresh Beef R91</item>
+        <item>Apple R2</item>
+    </string-array>
+
+    <array name="food_picture">
+        <item>@drawable/aa</item>
+        <item>@drawable/bb</item>
+        <item>@drawable/cc</item>
+        <item>@drawable/dd</item>
+        <item>@drawable/ee</item>
+        <!--<item>@drawable/af</item>-->
+    </array>
+
+    <string-array name="residence">
+        <item>Mabel Palmer(Boys)</item>
+        <item>John Bews</item>
+        <item>Plus Langa</item>
+        <item>Ansel May</item>
+        <item>Fluorence Powell</item>
+        <item>St Hiller</item>
+        <item>City Life</item>
+        <item>Shepstone</item>
+        <item>Reservoir Hills</item>
+    </string-array>
+
+
+</resources>
